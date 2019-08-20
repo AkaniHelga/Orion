@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<style type="text/css">
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  justify-content: center;
+  margin: -85px;
+  margin-left: 450px;
+  margin-right: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 0.5;
+}
+/*.bio::after {
+content: "The Team";
+border-style: solid;
+border-color: white;  
+}*/
+</style>
+
+<title>The Team,Orion Studios Africa</title>
+</head>
+
+<body>
+
+<header>
+<!--Orion Logo-->
+<div class="Orion-Logo">
+   <a href="index.html">
+   	<img src="img/SVG/Orion Card.svg" style="margin-left: 20px">
+   </a>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="container fluid">
+<div class="justify-content-center">
+<div class="d-flex flex-row-reverse">
+  
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href= "index.html">PORTFOLIO</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#packages">PACKAGES</a>
+    <a href="#contact">CONTACT</a>
+    <a href="about.html">ABOUT</a>
+  </div>
+
+<span style="float:left;font-size:20px;cursor:pointer; margin-top: -75px; margin-right: -85px; "onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "275px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
+</header>
+
+<!--Orion's Team Image-->
+<div class="container">
+	<img src="img/jpg/the_team.jpg" width="60%" height="60%" style="color: rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ; margin-top: -30px; margin-right: -30px;">
+<!--Orion's Bio-->
+	<div class="text-block">
+ 		<h2 style="text-align: center; margin-top: 10px;">ABOUT</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat justo ut est lobortis, quis tincidunt ante vestibulum. Pellentesque ac eleifend purus, id consequat ligula. Nulla a ante tortor. Nam aliquam, arcu id suscipit interdum, dui libero pulvinar arcu, a mollis odio ipsum a lectus. Praesent gravida euismod arcu. In hac habitasse platea dictumst. Donec eget felis non enim faucibus malesuada. Nunc dui turpis, imperdiet quis justo at, tempor consequat massa.
+		</p>
+	</div>	
+</div>
+	
+
+</body>
+</html>
